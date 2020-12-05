@@ -8,10 +8,10 @@ const config = {
   }
 
   export async function Contents_req(){
-    return await axios.get('https://gonggam.toast.paas-ta.com/api/posts', config)
+    return await axios.get('https://gonggam.toast.paas-ta.com/posts', config)
     
   }
   export async function post_req({page}){
-    return await axios.get('https://gonggam.toast.paas-ta.com/api/posts/?page='+page, config)
+    return await axios.get('https://gonggam.toast.paas-ta.com/posts/?page='+page, config)
     
   }
