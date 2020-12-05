@@ -1,0 +1,74 @@
+.logo-img {
+  font-family: "Gugi", cursive;
+  font-weight: normal;
+  color: dodgerblue;
+}
+.wrapper {
+  min-height: 90%;
+  height: 100%;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  width: 70%;
+  min-width: 320px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+.innerline {
+  box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: 10px;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+.innerline-vertical {
+  box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.12);
+  width: 10px;
+  height: 100%;
+  border-radius: 50px;
+  margin: 0px 10px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.circle-btn-inner {
+  width: 30px;
+  height: 50px;
+  box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+}
+
+.flex-item-gnb {
+  margin-left: auto;
+}
+.error-msg {
+  color: red;
+  font-size: 13pt;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
