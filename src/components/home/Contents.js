@@ -54,7 +54,7 @@ const Contents = ({match}) => {
           {url:'https://cfile1.onoffmix.com/images/event/228899/s',title:'공모전 예제',author:'김고구마',deadline:'2020-12-14'},
           {url:'https://cfile1.onoffmix.com/images/event/228899/s',title:'공모전 예제',author:'김고구마',deadline:'2020-12-14'},
           {url:'https://cfile1.onoffmix.com/images/event/228899/s',title:'공모전 예제',author:'김고구마',deadline:'2020-12-14'},
-        ]},{name:'서울시',count:3},{name:'스파르탄SW',count:14},{name:'동작구청',count:3},{name:'중앙대학교',count:4},{name:'IT연합',count:4},{name:'동작초등학교',count:4},{name:'기독교연합',count:4}];
+        ]},{name:'서울시',count:3},{name:'스파르탄SW',count:14},{name:'동작구청',count:3},{name:'중앙대학교',count:4},{name:'IT연합',count:4},{name:'은행',count:4},{name:'기독교연합',count:4}];
     const [group,setGroup]=useState(0);
   if(contents===null){
    return( <div>로딩중</div>)

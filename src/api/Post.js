@@ -8,6 +8,6 @@ const config = {
   }
 
   export async function post_req({title,body,group}){
-    return await axios.post('https://gonggam.toast.paas-ta.com/api/posts',qs.stringify({title:title,body:body,group:group}), config)
+    return await axios.post('https://gonggam.toast.paas-ta.com/posts',qs.stringify({title:title,body:body,group:group}), config)
     
   }
